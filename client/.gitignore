@@ -11,6 +11,18 @@
 # production
 /build
 
+# ignore env file
+.env
+
+# ignore logs
+*.log
+
+# ignore yarn.lock
+yarn.lock
+
+# ignore package-lock.json
+package.lock-json
+
 # misc
 .DS_Store
 .env.local
